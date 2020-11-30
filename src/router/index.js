@@ -14,6 +14,10 @@ const routes = [
         path: '/propsSync',
         name: 'propsSync',
         component: r => require.ensure([], () => r(require('@V/propsSync')), 'propsSync')
+    }, {
+        path: '/FP',
+        name: 'FP',
+        component: r => require.ensure([], () => r(require('@V/functionalComponent')), 'FP')
     }
 ]
 
