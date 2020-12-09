@@ -3,7 +3,8 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/propsSync">props .sync</router-link> |
-      <router-link to="/FP">Functional Component</router-link>
+      <router-link to="/FP">Functional Component</router-link> |
+      <router-link to="/renderless">Renderless</router-link>
     </div>
     <router-view/>
   </div>
