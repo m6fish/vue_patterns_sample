@@ -19,13 +19,13 @@ const routes = [
         name: 'FP',
         component: r => require.ensure([], () => r(require('@V/functionalComponent')), 'FP')
     }, {
-        path: '/renderless',
-        name: 'renderless',
-        component: r => require.ensure([], () => r(require('@V/renderless')), 'renderless')
-    }, {
         path: '/vslot',
         name: 'vslot',
         component: r => require.ensure([], () => r(require('@V/vslot')), 'vslot')
+    }, {
+        path: '/renderless',
+        name: 'renderless',
+        component: r => require.ensure([], () => r(require('@V/renderless')), 'renderless')
     }
 ]
 
