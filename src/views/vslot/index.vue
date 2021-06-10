@@ -72,6 +72,14 @@
             </template>
         </card>
 
+        <hr/>
+
+        <card v-bind="{user: userA}">
+            <template v-slot:performance="{ performance }">
+                performance: {{ performance }}
+            </template>
+        </card>
+
     </div>
 </template>
 

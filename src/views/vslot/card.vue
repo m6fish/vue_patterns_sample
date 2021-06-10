@@ -3,6 +3,7 @@
         <p>name: {{user.name}}</p>
         <p>rank: {{user.rank}}</p>
         <slot v-bind="{salary: getSalary}"/>
+        <slot name="performance" :performance="getPerformcance" />
     </div>
 </template>
 
@@ -24,6 +25,10 @@ export default {
         getSalary () {
             const { rank } = this.user
             return rank * 10000
+        },
+        getPerformcance () {
+            const { rank } = this.user
+            return rank > 3 ? 'A' : 'B'
         }
     }
 }
