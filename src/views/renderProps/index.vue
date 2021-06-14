@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import myList from './myList.vue'
+import myList from './myList'
 export default {
     name: 'renderProps',
     components: {

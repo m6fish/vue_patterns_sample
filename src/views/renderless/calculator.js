@@ -1,4 +1,3 @@
-<script>
 export default {
     name: 'calculator',
     props: {
@@ -31,4 +30,3 @@ export default {
         })
     }
 }
-</script>

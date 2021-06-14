@@ -1,4 +1,3 @@
-<script>
 export default {
     name: 'myList',
     props: {
@@ -20,4 +19,3 @@ export default {
         }</ul>)
     }
 }
-</script>
