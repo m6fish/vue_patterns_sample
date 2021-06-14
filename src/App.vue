@@ -6,6 +6,7 @@
       <router-link to="/FP">Functional Component</router-link> |
       <router-link to="/vslot">v-slot</router-link> |
       <router-link to="/renderless">Renderless</router-link> |
+      <router-link to="/RenderProps">RenderProps</router-link> |
     </div>
     <router-view/>
   </div>
